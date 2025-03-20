@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+       /* General Body Styles */
+body {
+    font-family: abolition, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #89A8B2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+header {
+    background-color: #B3C8CF;
+    color: #E5E1DA;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Speech Content Styling */
+.speech-content {
+    margin: 0 auto;
+    max-width: 800px; 
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Highlighted Text */
+.highlight {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.important-point {
+    background-color: #e3e3e3;
+    padding: 15px;
+    border-left: 5px solid #45a049;
+    margin-top: 10px;
+}
+
+/* Blockquote Styling */
+blockquote {
+    background-color: #f8f8f8;
+    border-left: 5px solid #4CAF50;
+    padding: 15px;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+
+form {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-size: 16px;
+    margin-top: 10px;
+    display: block;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form button {
+  
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>EQUALITY</h1>
+    </header>
+
+    <section class="speech-content">
+        <p>I, Ruth Bader Ginsburg,<span class="highlight"> have spent my life fighting for the fundamental belief that every individual, regardless of gender, race, or background, deserves equal protection under the law.</span> The journey toward justice is never easy, but I was always driven by the certainty that change is possible, even in the face of adversity. Whether in the courtroom or on the bench, my mission was to challenge laws that upheld inequality and discrimination. I did not fight just for women or minorities, but for all people who have been denied basic right.</p>
+       
+        <div class="important-point">
+            <p> My work was not about advancing one group over another; it was about advancing justice itself. There were many times when the fight seemed endless, but I held firm in my conviction that progress, no matter how slow, is still progress. <strong>Every victory, no matter how small, brought us one step closer to the more just society we all deserve.</strong>  Let my actions serve as a reminder that, no matter the odds, we must persist in our fight for fairness and equality, and never stop striving to create a world where dignity and justice are granted to all.</p>
+        </div>
+    </section>
+
+    <section class="interactive-section">
+        <blockquote>
+            "The journey toward justice is never easy, but I was always driven by the certainty that change is possible, even in the face of adversity."
+        </blockquote>
+
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email (optional):</label>
+            <input type="email" id="email" name="email">
+
+            <label for="feedback">Feedback/Comments:</label>
+            <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; Zaren Gerona 2024</p>
+</body>
+</html>
